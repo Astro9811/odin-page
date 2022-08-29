@@ -127,3 +127,23 @@ a {
     color: black;
     font-size: 18px;
 }
+
+.quote {
+    min-height: 400px;
+    background: linear-gradient(lightcoral 40%, rgb(241, 241, 100));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    color: white;
+    font-size: 44px;
+}
+
+.quote-author {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
