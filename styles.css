@@ -6,12 +6,14 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #e91111, #ecb958);;
+    background: linear-gradient(to right, #e91111, #ecb958);
+    min-height: 460px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    flex: 1 1 auto;
 }
 
 .logo {
@@ -36,7 +38,8 @@ ul {
 }
 
 a {
-    /*To be added once a database for the website is made */
+    color: white;
+    text-decoration: none;
 }
 
 .header2 {
@@ -73,6 +76,7 @@ a {
     font-size: 18px;
     border-radius: 10px;
     padding: 10px 40px;
+    margin-top: 10px;
     font-weight: 600;
     border: 0;
 }
@@ -86,4 +90,39 @@ a {
     width: 500px;
     height: auto;
     border-radius: 10px;
+}
+
+.info {
+    background: white;
+    color: black;
+    min-height: 360px;
+}
+
+.title2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.food {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foodpic {
+    size: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.foodpic:hover {
+    transform: scale(1.05);
+}
+
+.foodtext {
+    text-align: center;
+    color: black;
+    font-size: 18px;
 }
